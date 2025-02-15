@@ -6,23 +6,21 @@
 
 **🛠️ Technologies Used**
 
-✅ Boto3 – Integrated AWS services programmatically.
-✅ Amazon S3 – Stored generated blog content with timestamping.
-✅ API Gateway – Exposed REST API for user interaction.
-✅ AWS Lambda – Handled backend processing via serverless functions.
-✅ Postman – Tested API endpoints efficiently.
+1. Boto3 – Integrated AWS services programmatically.
+2. Amazon S3 – Stored generated blog content with timestamping.
+3. API Gateway – Exposed REST API for user interaction.
+4. AWS Lambda – Handled backend processing via serverless functions.
+5. Postman – Tested API endpoints efficiently.
 
 **🚀 Key Features**
 
-🔹 Seamless AI Integration: Connected AWS Lambda to Amazon Bedrock’s Meta Llama 2 13B model via Boto3.
-🔹 Dynamic Content Generation: Processed user queries and generated blog content in real-time.
-🔹 Optimized Performance: Configured AWS IAM roles, policies, and Lambda timeouts for efficient execution.
-🔹 Automated Storage: Stored AI-generated blog text files in S3 with timestamping.
-📂 Project Structure
-
-
-
-**📖 How It Works**
+1. Seamless AI Integration: Connected AWS Lambda to Amazon Bedrock’s Meta Llama 2 13B model via Boto3.
+2. Dynamic Content Generation: Processed user queries and generated blog content in real-time.
+3. Optimized Performance: Configured AWS IAM roles, policies, and Lambda timeouts for efficient execution.
+4. Automated Storage: Stored AI-generated blog text files in S3 with timestamping.
+   
+**📂 Project Structure**
+*📖 How It Works*
 
 1️⃣ User Query: Sent via API Gateway (REST API).
 2️⃣ Processing: AWS Lambda invokes Amazon Bedrock’s Meta Llama 2 13B model using Boto3.
